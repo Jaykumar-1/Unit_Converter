@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Unit Converter"
+        android:gravity="center_horizontal"/>
+
+
+<GridLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+    <Button
+        android:id="@+id/btnLength"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Length"
+            android:textStyle="normal"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnArea"
+            android:layout_width="match_parent"
+            android:textStyle="normal"
+            android:layout_height="match_parent"
+            android:text="Area"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnVol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Volume"
+            android:layout_marginStart="2dp"
+            android:textStyle="normal"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:text="Speed"
+            android:layout_marginStart="2dp"
+            android:textStyle="normal"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnWeight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Weight"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnTemp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Temperature"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="15sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnPow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Power"
+            android:layout_marginStart="2dp"
+            android:textStyle="normal"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_columnWeight="1"
+        android:background="@drawable/card_background2">
+
+
+        <Button
+            android:id="@+id/btnPress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pressure"
+            android:layout_marginStart="2dp"
+            android:textStyle="normal"
+            android:layout_marginEnd="2dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:textSize="18sp"
+            android:textColor="#00E676"/>
+
+
+    </RelativeLayout>
+
+
+</GridLayout>
+</LinearLayout>
